@@ -1,0 +1,39 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "description": "demo project for rabbitmq, redis, postgres, hapijs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-redis"
+  },
+  "keywords": [
+    "redis",
+    "node"
+  ],
+  "author": "Subodh Tiwari <tiwarisubodh@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/amqplib": "^0.5.4",
+    "@types/bluebird": "^3.5.8",
+    "@types/bookshelf": "^0.9.4",
+    "@types/hapi": "^16.1.8",
+    "@types/ioredis": "0.0.24",
+    "@types/joi": "^10.4.1",
+    "@types/knex": "0.0.57",
+    "@types/pg": "^6.1.43",
+    "amqplib": "^0.5.1",
+    "bluebird": "^3.5.0",
+    "bookshelf": "^0.10.4",
+    "hapi": "^16.5.2",
+    "ioredis": "^3.1.2",
+    "joi": "^10.6.0",
+    "knex": "^0.13.0",
+    "pg": "^7.1.2",
+    "typings": "^2.1.1"
+  }
+}
